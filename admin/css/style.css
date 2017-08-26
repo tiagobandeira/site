@@ -1,0 +1,4 @@
+/*Meu css*/
+div[class *='col-']{
+	margin-bottom: 20px;
+}

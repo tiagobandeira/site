@@ -1,0 +1,83 @@
+@import url('style.css');
+.container, .container-fluid{
+	fpadding-right: 15px;
+	fpadding-left: 15px;
+	fbackground: #e9e9e9;
+} 
+.row{
+	mmargin-bottom: 20px;
+}
+[class*="col-"], header, footer, nav, aside, section, div[content="main"], div[content="secundary"]{
+	ppadding: 10px 0 10px 0;
+	bbackground-color: #f9f9f9;
+	fborder: 1px solid #aaa;
+	ftext-align: center;
+}
+div[content="main"], div[content="secundary"]{
+	fbackground-color: #fff;
+}
+div[content="main"], div[content="secundary"], nav, aside{
+	
+}
+div[content="main"] .thumbnail img{
+	height: 300px;
+}
+/*Banner*/
+header img{
+	width: 100%;
+}
+/*grid*/
+div[role="grid"]{
+	fbackground: #222;
+	text-align: center;
+	rcolor: #ddd;
+}
+div[role="grid"]{
+	fbackground: #222;
+	
+}
+/*posrs e anuncios*/
+div[role="grid"] .thumbnail{
+	rbackground: #333;
+	border: none;header-cadastro
+}
+div[role="main"]{
+	text-align: center;
+}
+/*form de email*/
+div[content-footer="email"]{
+		
+}
+div[content-footer="links"], div[content-footer="endfooter"]{
+		
+}
+.itens{
+	margin-top: 10px;
+}
+
+/*
+logo
+*/
+
+/*
+------------------------------------##########################################################-------------------------------------------
+	Autor: Tiago Bandeira
+	Data: 11/06/2017
+	Estilo de Artes Variedades
+*/
+body{
+	cfont-family: DejaVu Sans, verdana; 
+	font-family: 'Rajdhani'
+	padding-top: 70px;
+	ffont-family: 'Oswald', sans-serif;
+}
+@media (max-width: 320px){
+	body{
+		padding-top: 160px;
+	}
+	 
+}
+header nav[role="header-cadastro"]{
+	background: brown; 
+	border: none;
+}
