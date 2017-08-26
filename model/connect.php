@@ -1,7 +1,7 @@
 <?php  
-	$user = 'root';
-	$pass = "";
-	$host = '127.0.0.1';
+	$user = 'u599766642_tiago';
+	$pass = "bS9EgRmy8q1r";
+	$host = 'mysql.hostinger.com.br';
 	$bd = 'site';
 
 	$con = new mysqli($host, $user, $pass, $bd);
