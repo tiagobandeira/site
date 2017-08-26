@@ -199,7 +199,7 @@
                       <?php echo $row['titulo']; ?>
                       </span></h4>
                     <div style="padding: 10px;">
-                        <img src="midia/<?php echo $row['imagem']; ?>">
+                        <img width='70%' src="midia/<?php echo $row['imagem']; ?>">
                     </div>
                      <?php echo $row['texto']; ?><span class="badge">8</span>
                   </div>
