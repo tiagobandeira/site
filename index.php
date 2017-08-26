@@ -38,7 +38,7 @@
             ;">
                 <div class="logo" style="font-family: 'Rajdhani', sans-serif;">
                   <h2 style="color: #444; margin-top: 5px; display: inline-block; float: left;  margin-left: 20px; margin-right: 50px;">
-                    <strong>Toque mágico</strong>
+                    <strong>Meu Site</strong>
                   </h2>
                 </div>
                 <div class="container-fluid" >
