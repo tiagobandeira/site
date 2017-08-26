@@ -1,6 +1,6 @@
 <?php  
 	$user = 'u599766642_tiago';
-	$pass = "bS9EgRmy8q1r";
+	$pass = 'bS9EgRmy8q1r';
 	$host = 'mysql.hostinger.com.br';
 	$bd = 'u599766642_site';
 
