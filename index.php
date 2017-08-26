@@ -141,8 +141,9 @@
       </div>
       <?php  
             require_once('model/connect.php');
-            $sql1 = "SELECT titulo, texto, imagem FROM post WHERE idcategoria = 38 ORDER BY idpost DESC";
-            $sql2 = "SELECT titulo, texto, imagem FROM post WHERE idcategoria = 40 ORDER BY idpost DESC";
+             require_once('model/sql.php');
+            $sql1 = "SELECT titulo, texto, imagem FROM post WHERE idcategoria = " . $id[0] . " ORDER BY idpost DESC";
+            $sql2 = "SELECT titulo, texto, imagem FROM post WHERE idcategoria = " . $id[1]. " ORDER BY idpost DESC";
       ?>
       <div class="row" role="main">
           <div class="col-md-12">
