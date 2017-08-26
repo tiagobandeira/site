@@ -141,14 +141,17 @@
       </div>
       <?php  
             require_once('model/connect.php');
-             require_once('model/sql.php');
-            $sql1 = "SELECT titulo, texto, imagem FROM post WHERE idcategoria = " . $id[0] . " ORDER BY idpost DESC";
-            $sql2 = "SELECT titulo, texto, imagem FROM post WHERE idcategoria = " . $id[1]. " ORDER BY idpost DESC";
+            include_once('model/sql.php');
+            $x = -1;
+            $y = -1;
+            $sql1 = "SELECT titulo, texto, imagem FROM post WHERE idcategoria = ". $id[++$x] ." ORDER BY idpost DESC";
+            $sql2 = "SELECT titulo, texto, imagem FROM post WHERE idcategoria = " . $id[++$x] . " ORDER BY idpost DESC";
+           
       ?>
       <div class="row" role="main">
           <div class="col-md-12">
              <div class="topic" style="font-family: 'Rajdhani', sans-serif;">
-                <h2>Nossos Temas</h2>
+                <h2><?php echo $nomes[++$y]?></h2>
              </div>
           </div>
           <div class="col-md-12">
@@ -179,7 +182,7 @@
           </div>
           <div class="col-md-12">
              <div class="topic" style="font-family: 'Rajdhani', sans-serif;">
-                <h2>Eventos realizados</h2>
+                <h2> <h2><?php echo $nomes[++$y] ?></h2> </h2>
              </div>
           </div>
           <div class="col-md-12">

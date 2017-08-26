@@ -6,9 +6,9 @@
     $cont = 0;
     if ($resulte->num_rows > 0) {
         while ($row = $resulte->fetch_assoc()){
-            $id[cont] = $row['idcategoria'];
-            $nomes[cont] = $row['nome'];
-            cont++;
+            $id[$cont] = $row['idcategoria'];
+            $nomes[$cont] = $row['nome'];
+            $cont += 1;
         }
     }
 ?>
