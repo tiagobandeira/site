@@ -1,5 +1,5 @@
 <?php  
-    include_once('connect.php');
+    #include_once('connect.php');
     #selecionar nome da categoria e colocar em um array
     $sql = "SELECT nome, idcategoria FROM categoria";
     $resulte = $con->query($sql);
