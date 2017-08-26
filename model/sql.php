@@ -1,7 +1,7 @@
 <?php  
     include_once('connect.php');
     #selecionar nome da categoria e colocar em um array
-    $sql = "SELECT nome FROM categoria";
+    $sql = "SELECT nome, idcategoria FROM categoria";
     $resulte = $con->query($sql);
     $cont = 0;
     if ($resulte->num_rows > 0) {
