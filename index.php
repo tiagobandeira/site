@@ -103,21 +103,21 @@
                     <div class="item active">
                       <img src="imagens/slide1_image.jpg" class="img-responsive" alt="...">
                       <div class="carousel-caption">
-                        <h1>Aqui a descrição da imagem</h1>
+                        <h2>Aqui a descrição da imagem</h2>
                         <p>Falando mais sobre</p>   
                       </div>
                   </div>
                     <div class="item">
                       <img src="imagens/slide2_image.jpg" class="img-responsive" alt="...">
                       <div class="carousel-caption">
-                        <h1>Outra descrição</h1>
+                        <h2>Outra descrição</h2>
                         <p>Também falando sobre</p>               
                       </div>
                     </div>
                     <div class="item">
                       <img src="imagens/slide3_image.jpg" class="img-responsive" alt="...">
                       <div class="carousel-caption">
-                        <h1>Mais Ainda</h1>
+                        <h2>Mais Ainda</h2>
                         <p>E assim adiante. Use quantos banners forem necessários</p>               
                       </div>
                     </div>
