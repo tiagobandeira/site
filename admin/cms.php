@@ -15,14 +15,20 @@ if (isset($_SESSION['user'])) {
 				require_once('../model/connect.php');
 				$sql = "SELECT titulo FROM post ORDER BY idpost DESC";
 				$resulte = $con->query($sql);
+				$cont = 0;
 				if ($resulte->num_rows > 0) {
 					echo "<div class='pannel-body'>";
 					while ($row = $resulte->fetch_assoc()) {
+						if ($cont > 2) {
+							break;
+						}
 			?>
 					<div class="pannel-item action-blue"><?php  echo utf8_encode($row['titulo']) ?></div>	
 				
 			<?php 
+					$cont++;
 					}
+					
 					echo "</div>";
 				}
 		    ?>

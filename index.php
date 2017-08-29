@@ -38,7 +38,7 @@
             ;">
                 <div class="logo" style="font-family: 'Rajdhani', sans-serif;">
                   <h2 style="color: #444; margin-top: 5px; display: inline-block; float: left;  margin-left: 20px; margin-right: 50px;">
-                    <strong>Meu Site</strong>
+                    <strong>Toque mágico</strong>
                   </h2>
                 </div>
                 <div class="container-fluid" >
@@ -103,21 +103,21 @@
                     <div class="item active">
                       <img src="imagens/slide1_image.jpg" class="img-responsive" alt="...">
                       <div class="carousel-caption">
-                        <h2>Aqui a descrição da imagem</h2>
+                        <h1>Aqui a descrição da imagem</h1>
                         <p>Falando mais sobre</p>   
                       </div>
                   </div>
                     <div class="item">
                       <img src="imagens/slide2_image.jpg" class="img-responsive" alt="...">
                       <div class="carousel-caption">
-                        <h2>Outra descrição</h2>
+                        <h1>Outra descrição</h1>
                         <p>Também falando sobre</p>               
                       </div>
                     </div>
                     <div class="item">
                       <img src="imagens/slide3_image.jpg" class="img-responsive" alt="...">
                       <div class="carousel-caption">
-                        <h2>Mais Ainda</h2>
+                        <h1>Mais Ainda</h1>
                         <p>E assim adiante. Use quantos banners forem necessários</p>               
                       </div>
                     </div>
@@ -149,30 +149,29 @@
            
       ?>
       <div class="row" role="main">
-          <div class="col-md-12">
-             <div class="topic" style="font-family: 'Rajdhani', sans-serif;">
-                <h2><?php echo $nomes[++$y]?></h2>
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+             <div  style="font-family: 'Rajdhani', sans-serif;">
+                <h2 ><?php echo $nomes[++$y]?></h2>
              </div>
           </div>
-          <div class="col-md-12">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
               <?php  
               $resulte = $con->query($sql1);
               if ($resulte->num_rows > 0) {
                   while ($row = $resulte->fetch_assoc()){
 
               ?>
-              <div class="col-md-3">
-                  <div style="border: solid 1px #eee; height: 200px; margin-top: 15px;">
+              <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                  <div style="border: solid 1px #eee;  margin-top: 15px;">
                     <h4 style="text-align: left;"> 
                       <span class="label label-info">
                         <?php echo $row['titulo']; ?>
                       </span>
                     </h4>
                     <div style="padding: 5px;" >
-                        <img width='70%' height="125px" src="midia/<?php echo $row['imagem']; ?>" >
+                        <img width='70%'  src="midia/<?php echo $row['imagem']; ?>" >
                     </div>
-                    <?php echo $row['texto']; ?>
-                     <span class="badge">1</span>
+                    <p><?php echo $row['texto']; ?><span class="badge">1</span></p>
                   </div>
               </div>
               <?php  
@@ -180,26 +179,26 @@
               }
               ?>
           </div>
-          <div class="col-md-12">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
              <div class="topic" style="font-family: 'Rajdhani', sans-serif;">
-                <h2> <h2><?php echo $nomes[++$y] ?></h2> </h2>
+                <h2> <?php echo $nomes[++$y] ?></h2>
              </div>
           </div>
-          <div class="col-md-12">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                <?php  
                $resulte = $con->query($sql2);
                 if ($resulte->num_rows > 0) {
                     while ($row = $resulte->fetch_assoc()){
 
               ?>
-              <div class="col-md-3">
-                  <div style="border: solid 1px #eee; height: 200px; margin-top: 15px;">
+              <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                  <div style="border: solid 1px #eee; margin-top: 15px;">
                     <h4 style="text-align: left;"> 
                       <span class="label label-warning">
                       <?php echo $row['titulo']; ?>
                       </span></h4>
-                    <div style="padding: 5px;">
-                        <img width='70%' height="125px" src="midia/<?php echo $row['imagem']; ?>">
+                    <div style="padding: 10px;">
+                        <img width='70%' src="midia/<?php echo $row['imagem']; ?>">
                     </div>
                      <p><?php echo $row['texto']; ?><span class="badge">8</span></p>
                   </div>
@@ -211,7 +210,7 @@
           </div>
       </div>
       <div class="row">
-          <div class="col-md-12">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
              <div class="topic" style="font-family: 'Rajdhani', sans-serif; text-align: center;">
                 <h2>Documentários</h2>
              </div>

@@ -3,7 +3,6 @@
 <?php  include_once('nav.php'); ?>
 		
 		<div class="col-6">
-			<h3>Lista de posts</h3>
 			<div class="pannel">
 				<div class="pannel-header-line">
 					<div class="pannel-header cyan-coral">
