@@ -211,7 +211,7 @@
           </div>
       </div>
       <div class="row">
-      		<div class="col-md-8 col-md-offset-3">
+      		<div class="col-md-8 col-md-offset-2">
       			<div style="position:relative; padding-bottom:56.25%; overflow:hidden;"><iframe src="//content.jwplatform.com/players/IT9szBBi-Z65omyop.html" width="100%" height="100%" frameborder="0" scrolling="auto" allowfullscreen style="position:absolute;"></iframe></div>
       		</div>
       </div>
