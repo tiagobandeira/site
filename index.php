@@ -51,9 +51,7 @@
                       <span class="icon-bar" style="background-color: #555;"></span>
                       <span class="icon-bar" style="background-color: #555;"></span>
                     </button>
-                    <a class="navbar-brand" href="#">
-                      <strong style="color: rgb(85, 102, 119)">HOME</strong>       
-                    </a>
+                   
                   </div>
 
                   <!-- Collect the nav links, forms, and other content for toggling -->
@@ -149,7 +147,7 @@
             $sql2 = "SELECT titulo, texto, imagem FROM post WHERE idcategoria = " . $id[++$x] . " ORDER BY idpost DESC";
            
       ?>
-      <div class="row" role="main">
+      <div class="row" role="main" style="padding-bottom: 5%;">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
              <div  style="font-family: 'Rajdhani', sans-serif;">
                 <h2 ><?php echo $nomes[++$y]?></h2>
