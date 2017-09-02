@@ -37,7 +37,7 @@
               <!-- Comenco -->
             <nav class="navbar navbar-fixed-top" style="background-color: #fff; padding: 10px; font-family: 'Rajdhani', sans-serif; border-bottom: solid 1px #eee
             ;">
-                <div class="logo" style="font-family: 'Rajdhani', sans-serif;">
+                <div class="logo" style="font-family: 'Rajdhani', sans-serif; width: 20%;">
                   <h2 style="color: #444; margin-top: 5px; display: inline-block; float: left;  margin-left: 20px; margin-right: 50px;">
                     <strong>Toque mágico</strong>
                   </h2>

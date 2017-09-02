@@ -71,9 +71,9 @@ body{
 	padding-top: 70px;
 	ffont-family: 'Oswald', sans-serif;
 }
-@media (max-width: 320px){
+@media (min-width: 320px){
 	body{
-		padding-top: 160px;
+		padding-top: 100px;
 	}
 	 
 }
