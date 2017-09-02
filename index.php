@@ -11,7 +11,8 @@
   <link href="css/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/style-index.css">
   <link rel="stylesheet" type="text/css" href="css/font/font.css">
-  
+  <!-- streming teste-->
+  <script src="//content.jwplatform.com/players/IT9szBBi-SUsM5zlW.js"></script>
   <style type="text/css">
     p a span[role="fa"]:hover{
       background: rgb(51, 122, 183) none repeat scroll 0% 0%;
@@ -208,6 +209,11 @@
               }
               ?>
           </div>
+      </div>
+      <div class="row">
+      		<div class="col-md-12">
+      			<div style="position:relative; padding-bottom:56.25%; overflow:hidden;"><iframe src="//content.jwplatform.com/players/IT9szBBi-SUsM5zlW.html" width="100%" height="100%" frameborder="0" scrolling="auto" allowfullscreen style="position:absolute;"></iframe></div>
+      		</div>
       </div>
       <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
