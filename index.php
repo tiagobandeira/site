@@ -211,9 +211,8 @@
           </div>
       </div>
       <div class="row">
-      		<div class="col-md-12">
-      			<div style="position:relative; padding-bottom:56.25%; overflow:hidden;"><iframe src="//content.jwplatform.com/players/IT9szBBi-SUsM5zlW.html" width="100%" height="100%" frameborder="0" scrolling="auto" allowfullscreen style="position:absolute;"></iframe></div>
-      		</div>
+      		<iframe src="//content.jwplatform.com/players/IT9szBBi-HNxNDu8H.html" width="640" height="360" frameborder="0" scrolling="auto" allowfullscreen>
+      		</iframe>
       </div>
       <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
