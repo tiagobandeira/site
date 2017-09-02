@@ -210,10 +210,21 @@
               ?>
           </div>
       </div>
-      <div class="row">
-      		<div class="col-md-8 col-md-offset-2">
-      			<div style="position:relative; padding-bottom:56.25%; overflow:hidden;"><iframe src="//content.jwplatform.com/players/IT9szBBi-Z65omyop.html" width="70%" height="70%" frameborder="0" scrolling="auto" allowfullscreen style="position:absolute;"></iframe></div>
-      		</div>
+       <div class="row" style="padding: 5%; background: #eee">
+           <div class="col-md-6">
+            <div style="overflow:hidden; ">
+              <div style="padding: 10%; text-align: center; font-family: 'Rajdhani', sans-serif;">
+                  <h2><strong>Veja um vídeo</strong></h2>
+                  <p>Para apreciar um de nossos eventos</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 ">
+            <div style="position:relative; padding-bottom:56.25%; overflow:hidden; border: solid 1px #ccc;">
+              <iframe src="//content.jwplatform.com/players/8eHPFf73-Z65omyop.html" width="100%" height="100%" frameborder="0" scrolling="auto " allowfullscreen style="position:absolute;">
+              </iframe>
+            </div>
+          </div>
       </div>
       <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
