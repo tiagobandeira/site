@@ -211,8 +211,10 @@
           </div>
       </div>
       <div class="row">
-      		<iframe src="//content.jwplatform.com/players/IT9szBBi-HNxNDu8H.html" width="640" height="360" frameborder="0" scrolling="auto" allowfullscreen>
-      		</iframe>
+      		<div class="col-md-8 col-md-offset-2">
+      			<iframe src="//content.jwplatform.com/players/IT9szBBi-HNxNDu8H.html" width="640" height="360" frameborder="0" scrolling="auto" allowfullscreen>
+      			</iframe>
+      		</div>
       </div>
       <div class="row">
           <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
