@@ -12,7 +12,7 @@
   <link rel="stylesheet" type="text/css" href="css/style-index.css">
   <link rel="stylesheet" type="text/css" href="css/font/font.css">
   <!-- streming teste-->
-  <script src="//content.jwplatform.com/players/IT9szBBi-SUsM5zlW.js"></script>
+  <!--<script src="//content.jwplatform.com/players/IT9szBBi-SUsM5zlW.js"></script>-->
   <style type="text/css">
     p a span[role="fa"]:hover{
       background: rgb(51, 122, 183) none repeat scroll 0% 0%;
